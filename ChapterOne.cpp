@@ -46,5 +46,16 @@ int main()
         std::cout << v2-- <<std::endl;
     }
 
+    //excercise 1.12
+    int sum12 = 0;
+    for (int i = -100; i <= 100; ++i){
+        sum12 +=i;
+        std::cout << "i: " << i << std::endl;
+        std::cout << "Sum: " << sum12 << std::endl;
+    }
+
+    //exercise 1.13
+        
+
     return 0;
 }
